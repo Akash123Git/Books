@@ -19,7 +19,7 @@ public class Authemail {
         msg.setTo("akashvijay769@gmail.com");
 
         msg.setSubject("Testing from Spring Boot");
-        msg.setText("Hello World \n Spring Boot Email");
+        msg.setText("Hello World \n Spring Boot Email ");
         try{javaMailSender.send(msg);
             return "sent";
         }
